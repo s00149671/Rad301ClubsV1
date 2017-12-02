@@ -186,6 +186,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ClubEventsController.cs" />
+    <Compile Include="Controllers\ClubMemberController.cs" />
     <Compile Include="Controllers\ClubsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -232,6 +233,7 @@
       <DependentUpon>201711211129332_Initial_Migration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\ClubModelMigrations\TestStudents.csv" />
+    <Content Include="Migrations\ClubModelMigrations\Courses.csv" />
     <None Include="Properties\PublishProfiles\ClubsV1 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\ClubsV1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\pprad301ClubsApp - FTP.pubxml" />
@@ -302,6 +304,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\ClubMember\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
